@@ -1,0 +1,17 @@
+SC <- read.csv ("dataANOVA-1.csv")
+mean (SC$Haemoglobin.)
+min (SC$Haemoglobin.)
+max (SC$Haemoglobin.)
+median(SC$Haemoglobin.)
+mean (SC$Haemoglobin.,16)
+mean (SC[1:16,2])
+mean (SC [17:26,2])
+mean (SC[27:41,2])
+mean(SC[SC$sickleCell. == "ss",2])
+mean (SC[SC$sickleCell.== "sb",2])
+mean(SC[SC$sickleCell.=="sc",2])
+SC[10,2] > SC[29,2]
+SC[32,2] = SC[21,2]
+mean(SC[17:26,2]) < mean(SC[27:41,2])
+mean (SC[,2])
+mean (SC[,"Haemoglobin."])
