@@ -15,3 +15,6 @@ SC[32,2] = SC[21,2]
 mean(SC[17:26,2]) < mean(SC[27:41,2])
 mean (SC[,2])
 mean (SC[,"Haemoglobin."])
+# Get the distribution of haemoglobin from SC data
+summary(SC$Haemoglobin.)
+hist(SC$Haemoglobin.)
